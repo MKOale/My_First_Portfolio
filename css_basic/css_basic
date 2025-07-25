@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Portfolio</title>
+    <link href="base.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- T1 Requirements Start -->
+    <h1>Welcome to My Portfolio</h1>
+    <h2>About This Page</h2>
+    <h3>My HTML Learning Journey</h3>
+
+    <p>This is my first webpage created during the ALX Front-End program.</p>
+    <p>I am learning how to structure web content using HTML.</p>
+    <p>This task involves adding paragraphs, headings, and images.</p>
+    <p>It also includes making an image clickable using anchor tags.</p>
+
+    <a href="https://www.alxafrica.com" target="_blank">
+        <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo">
+    </a>
+  
+</body>
+</html>
+     <!-- Your later tasks (T2-T5) content can follow here -->
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Portfolio</title>
+</head>
+<body>
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <article>
+      <h2>Welcome to My Portfolio</h2>
+      <p>This is my very first webpage built with HTML only. More to come soon!</p>
+
+      <!-- Learners Table -->
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>25</td>
+            <td>USA</td>
+          </tr>
+          <tr>
+            <td>Emily</td>
+            <td>28</td>
+            <td>Canada</td>
+          </tr>
+          <tr>
+            <td>Michael</td>
+            <td>32</td>
+            <td>Australia</td>
+          </tr>
+          <tr>
+            <td>Sophia</td>
+            <td>21</td>
+            <td>UK</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Made by Ale Kolajo Israel - <a href="https://github.com/alekolajo" target="_blank">here</a></p>
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Embedded Tweet</title>
+    <link href="base.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </header>
+    <main>
+      <article>
+        <h2>Latest Tweet Embed</h2>
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            ALX students, techies and future builders in Nigeria, how far? 👇<br><br>
+            We're building something huge this September in Lagos with @buildforsdg alumni,
+            tech mentors, product leaders, and founders.<br><br>
+            🚨 #ALXTechCon2024 is coming.<br><br>
+            <a href="https://t.co/hz4zDwE3Aj">pic.twitter.com/hz4zDwE3Aj</a>
+          </p>
+          &mdash; ALX Africa (@alx_africa)
+          <a href="https://twitter.com/alx_africa/status/1814203944380479834?ref_src=twsrc%5Etfw">
+            July 17, 2024
+          </a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js"></script>
+      </article>
+      <aside>
+        <p>placeholder to add comment thread later</p>
+      </aside>
+    </main>
+    <footer>
+      <p>Made by Ale Kolajo Israel - <a href="https://github.com/Alekolajo" target="_blank">here</a>.</p>
+    </footer>
+  </body>
+</html>
